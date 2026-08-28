@@ -189,7 +189,7 @@ if uploaded_file is not None:
         # 版面配置：左邊顯示影片，右邊即時顯示違規截圖
         col1, col2 = st.columns([2, 1])
         with col1:
-            st.subheader("📹 即時辨識畫面")
+            st.subheader("📹 非即時辨識畫面")
             st_frame = st.empty()
             progress_bar = st.progress(0)
         with col2:
